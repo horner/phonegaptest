@@ -24,7 +24,7 @@
                         <m2:ShowOn Tile="square310x310Logo" />
                     </m2:ShowNameOnTiles>
                 </m2:DefaultTile>
-                <m2:SplashScreen Image="images\SplashScreen.png" />
+                <m2:SplashScreen BackgroundColor="#f05c21" Image="images\SplashScreen.png" />
                 <m2:InitialRotationPreference>
                     <m2:Rotation Preference="portrait" />
                     <m2:Rotation Preference="landscape" />

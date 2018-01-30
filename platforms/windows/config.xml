@@ -17,4 +17,6 @@
     <allow-intent href="geo:*" />
     <preference name="windows-target-version" value="10.0" />
     <preference name="windows-phone-target-version" value="10.0" />
+    <preference name="ShowSplashScreenSpinner" value="false" />
+    <preference name="SplashScreenBackgroundColor" value="#f05c21" />
 </widget>
