@@ -8,6 +8,9 @@
         <param name="android-package" value="org.apache.cordova.splashscreen.SplashScreen" />
         <param name="onload" value="true" />
     </feature>
+    <feature name="InAppBrowser">
+        <param name="android-package" value="org.apache.cordova.inappbrowser.InAppBrowser" />
+    </feature>
     <name>HelloCordova</name>
     <description>
         A sample Apache Cordova application that responds to the deviceready event.
@@ -27,4 +30,6 @@
     <preference name="loglevel" value="DEBUG" />
     <preference name="windows-target-version" value="10.0" />
     <preference name="windows-phone-target-version" value="10.0" />
+    <preference name="ShowSplashScreenSpinner" value="false" />
+    <preference name="SplashScreenBackgroundColor" value="#f05c21" />
 </widget>
