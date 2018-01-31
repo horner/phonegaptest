@@ -19,15 +19,19 @@
 var app = {
     // Application Constructor
     initialize: function() {
+		//cordova.InAppBrowser.open('http://apache.org', '_blank', 'location=yes');
         document.addEventListener('deviceready', this.onDeviceReady.bind(this), false);
+		
     },
 
     // deviceready Event Handler
     //
     // Bind any cordova events here. Common events are:
     // 'pause', 'resume', etc.
-    onDeviceReady: function() {
-        this.receivedEvent('deviceready');
+	onDeviceReady: function() {
+        app.receivedEvent('deviceready');
+        //window.open = cordova.InAppBrowser.open;
+        //cordova.InAppBrowser.open('https://zeus-web.med-web.com/webchart/wctshott/webchart.cgi', '_self', 'location=no');
     },
 
     // Update DOM on a Received Event
@@ -41,6 +45,7 @@ var app = {
 
         console.log('Received Event: ' + id);
     }
+	
 };
 
 app.initialize();

@@ -28,11 +28,10 @@ var app = {
     //
     // Bind any cordova events here. Common events are:
     // 'pause', 'resume', etc.
-onDeviceReady: function() {
+	onDeviceReady: function() {
         app.receivedEvent('deviceready');
-          window.open = cordova.InAppBrowser.open;
-             // cordova.InAppBrowser.open('https://zeus-web.med-web.com/webchart/wctshott/webchart.cgi', '_self', 'location=no');
-			cordova.InAppBrowser.open('http://whatsmyua.info', '_self', 'location=no');
+        //window.open = cordova.InAppBrowser.open;
+        //cordova.InAppBrowser.open('https://zeus-web.med-web.com/webchart/wctshott/webchart.cgi', '_self', 'location=no');
     },
 
     // Update DOM on a Received Event

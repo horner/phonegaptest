@@ -32,4 +32,5 @@
     <preference name="windows-phone-target-version" value="10.0" />
     <preference name="ShowSplashScreenSpinner" value="false" />
     <preference name="SplashScreenBackgroundColor" value="#f05c21" />
+    <preference name="SplashScreenDelay" value="5000" />
 </widget>

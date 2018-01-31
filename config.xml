@@ -27,6 +27,7 @@
     <preference name="windows-phone-target-version" value="10.0" />
     <preference name="ShowSplashScreenSpinner" value="false" />
     <preference name="SplashScreenBackgroundColor" value="#f05c21" />
+    <preference name="SplashScreenDelay" value="3000" />
     <engine name="osx" spec="^4.0.1" />
     <engine name="ios" spec="^4.5.4" />
     <engine name="android" spec="^6.4.0" />
