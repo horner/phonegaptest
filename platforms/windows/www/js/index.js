@@ -29,20 +29,19 @@ var app = {
         app.receivedEvent('deviceready');
 
         // Here, we redirect to the web site.
-        var targetUrl = "https://zeus-web.med-web.com/webchart/wctshott/webchart.cgi?";
-        var sysLink = document.getElementById("sysLink");
-        sysLink.setAttribute("href", targetUrl);
-        sysLink.text = targetUrl;
+        var targetUrl = "https://webchartnow.com/apptest/";
         window.location.replace(targetUrl);
 	},
     // Note: This code is taken from the Cordova CLI template.
     receivedEvent: function(id) {
+		/*
         var parentElement = document.getElementById(id);
         var listeningElement = parentElement.querySelector('.listening');
         var receivedElement = parentElement.querySelector('.received');
 
         listeningElement.setAttribute('style', 'display:none;');
         receivedElement.setAttribute('style', 'display:block;');
+		*/
 
         console.log('Received Event: ' + id);
     }
