@@ -15,6 +15,8 @@
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
+    <allow-navigation href="*" />
+    <allow-navigation href="https://zeus-web.med-web.com/webchart/wctshott/webchart.cgi?*" />
     <preference name="windows-target-version" value="10.0" />
     <preference name="windows-phone-target-version" value="10.0" />
     <preference name="ShowSplashScreenSpinner" value="false" />

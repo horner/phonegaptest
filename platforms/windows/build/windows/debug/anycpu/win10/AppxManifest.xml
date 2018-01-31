@@ -33,6 +33,7 @@
         </uap:InitialRotationPreference>
       </uap:VisualElements>
       <uap:ApplicationContentUriRules>
+        <uap:Rule Match="https://zeus-web.med-web.com/webchart/wctshott/webchart.cgi?*" Type="include" WindowsRuntimeAccess="all" />
         <uap:Rule Match="ms-appx-web:///" Type="include" WindowsRuntimeAccess="all" />
       </uap:ApplicationContentUriRules>
     </Application>

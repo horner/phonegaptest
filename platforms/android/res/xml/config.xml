@@ -26,6 +26,8 @@
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
+    <allow-navigation href="*" />
+    <allow-navigation href="https://zeus-web.med-web.com/webchart/wctshott/webchart.cgi?*" />
     <allow-intent href="market:*" />
     <preference name="loglevel" value="DEBUG" />
     <preference name="windows-target-version" value="10.0" />

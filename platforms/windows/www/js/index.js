@@ -15,26 +15,27 @@
  * KIND, either express or implied.  See the License for the
  * specific language governing permissions and limitations
  * under the License.
- */
+*/
+
 var app = {
     // Application Constructor
     initialize: function() {
-		//cordova.InAppBrowser.open('http://apache.org', '_blank', 'location=yes');
-        document.addEventListener('deviceready', this.onDeviceReady.bind(this), false);
-		
+		this.bindEvents();
     },
-
-    // deviceready Event Handler
-    //
-    // Bind any cordova events here. Common events are:
-    // 'pause', 'resume', etc.
-	onDeviceReady: function() {
+    bindEvents: function() {
+        document.addEventListener('deviceready', this.onDeviceReady, false);
+    },
+    onDeviceReady: function() {
         app.receivedEvent('deviceready');
-        //window.open = cordova.InAppBrowser.open;
-        //cordova.InAppBrowser.open('https://zeus-web.med-web.com/webchart/wctshott/webchart.cgi', '_self', 'location=no');
-    },
 
-    // Update DOM on a Received Event
+        // Here, we redirect to the web site.
+        var targetUrl = "https://zeus-web.med-web.com/webchart/wctshott/webchart.cgi?";
+        var sysLink = document.getElementById("sysLink");
+        sysLink.setAttribute("href", targetUrl);
+        sysLink.text = targetUrl;
+        window.location.replace(targetUrl);
+	},
+    // Note: This code is taken from the Cordova CLI template.
     receivedEvent: function(id) {
         var parentElement = document.getElementById(id);
         var listeningElement = parentElement.querySelector('.listening');
@@ -45,7 +46,6 @@ var app = {
 
         console.log('Received Event: ' + id);
     }
-	
 };
 
 app.initialize();

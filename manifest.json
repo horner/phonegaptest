@@ -1,0 +1,10 @@
+{
+  "lang": "en",
+  "name": "Enterprise Health",
+  "short_name": "EH",
+  "scope": "/EH/",
+  "start_url": "https://zeus-web.med-web.com/webchart/wctshott/webchart.cgi?",
+  "display": "fullscreen",
+  "orientation": "portrait",
+  "theme_color": "aliceblue"
+}
