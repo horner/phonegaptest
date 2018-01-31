@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="io.cordova.hellocordova" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>HelloCordova</name>
+<widget id="io.cordova.enterprisehealth" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Enterprise Health</name>
     <description>
-        A sample Apache Cordova application that responds to the deviceready event.
+        Enterprise Health mobile app.
     </description>
-    <author email="dev@cordova.apache.org" href="http://cordova.io">
-        Apache Cordova Team
+    <author email="shott@mieweb.com" href="http://www.enterprisehealth.com">
+        Enterprise Health Team
     </author>
     <content src="index.html" />
     <access origin="*" />
@@ -19,5 +19,5 @@
     <preference name="windows-phone-target-version" value="10.0" />
     <preference name="ShowSplashScreenSpinner" value="false" />
     <preference name="SplashScreenBackgroundColor" value="#f05c21" />
-    <preference name="SplashScreenDelay" value="5000" />
+    <preference name="SplashScreenDelay" value="3000" />
 </widget>

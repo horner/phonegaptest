@@ -30,8 +30,8 @@ var app = {
     // 'pause', 'resume', etc.
 	onDeviceReady: function() {
         app.receivedEvent('deviceready');
-        window.open = cordova.InAppBrowser.open;
-        cordova.InAppBrowser.open('https://zeus-web.med-web.com/webchart/wctshott/webchart.cgi', '_self', 'location=no');
+        //window.open = cordova.InAppBrowser.open;
+        //cordova.InAppBrowser.open('https://zeus-web.med-web.com/webchart/wctshott/webchart.cgi', '_self', 'location=no');
     },
 
     // Update DOM on a Received Event
