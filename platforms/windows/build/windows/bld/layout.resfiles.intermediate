@@ -59,4 +59,6 @@ www\css\splashscreen.css
 www\img\logo.png
 www\index.html
 www\js\index.js
+www\plugins\cordova-plugin-splashscreen\www\splashscreen.js
+www\plugins\cordova-plugin-splashscreen\www\windows\SplashScreenProxy.js
 www\WinJS\js\base.js
