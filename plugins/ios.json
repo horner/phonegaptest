@@ -7,9 +7,6 @@
     "files": {}
   },
   "installed_plugins": {
-    "cordova-plugin-inappbrowser": {
-      "PACKAGE_NAME": "io.cordova.enterprisehealth"
-    },
     "cordova-plugin-splashscreen": {
       "PACKAGE_NAME": "io.cordova.enterprisehealth"
     },
