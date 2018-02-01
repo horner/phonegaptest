@@ -25,9 +25,9 @@
     },
     "platforms": [
       "osx",
-      "ios",
       "android",
-      "windows"
+      "windows",
+      "ios"
     ]
   }
 }
