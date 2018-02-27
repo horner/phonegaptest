@@ -1,1 +1,0 @@
-C:\Users\Shawn\Documents\Cordova Projects\wc_client_app\platforms\windows\CordovaApp.Windows10.jsproj;neutral
