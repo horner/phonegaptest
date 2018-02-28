@@ -15,29 +15,33 @@
  * KIND, either express or implied.  See the License for the
  * specific language governing permissions and limitations
  * under the License.
- */
+*/
+
 var app = {
     // Application Constructor
     initialize: function() {
-        document.addEventListener('deviceready', this.onDeviceReady.bind(this), false);
+		this.bindEvents();
     },
-
-    // deviceready Event Handler
-    //
-    // Bind any cordova events here. Common events are:
-    // 'pause', 'resume', etc.
+    bindEvents: function() {
+        document.addEventListener('deviceready', this.onDeviceReady, false);
+    },
     onDeviceReady: function() {
-        this.receivedEvent('deviceready');
-    },
+        app.receivedEvent('deviceready');
 
-    // Update DOM on a Received Event
+        // Here, we redirect to the web site.
+        var targetUrl = "https://webchartnow.com/apptest/";
+        window.location.replace(targetUrl);
+	},
+    // Note: This code is taken from the Cordova CLI template.
     receivedEvent: function(id) {
+		/*
         var parentElement = document.getElementById(id);
         var listeningElement = parentElement.querySelector('.listening');
         var receivedElement = parentElement.querySelector('.received');
 
         listeningElement.setAttribute('style', 'display:none;');
         receivedElement.setAttribute('style', 'display:block;');
+		*/
 
         console.log('Received Event: ' + id);
     }
