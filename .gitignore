@@ -9,6 +9,7 @@ build/
 .DS_Store
 
 # iOS
+platforms/ios
 platforms/ios/build/
 platforms/ios/www/
 platforms/ios/cordova/console.log
