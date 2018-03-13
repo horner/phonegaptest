@@ -1,4 +1,3 @@
-
 WC Client App
 -------------
 
@@ -28,5 +27,6 @@ password: @AppTest123
 TODO
 =====
 1. App store publishing
-2. ...
+2. dictation
+3. push notifications
 
