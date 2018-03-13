@@ -1,5 +1,4 @@
 
-
 WC Client App
 -------------
 
@@ -9,19 +8,25 @@ Building Instruction
 ====================
 
 Will build all of the platforms (android, ios, windows, osx)
+
+```bash
 cordova build
-
-
+```
+```bash
 cordova build ios
+```
+```bash
 cordova run ios
-
+```
 
 Logging in
 ==========
 username: apptest
+
 password: @AppTest123
 
 TODO
 =====
-
+1. App store publishing
+2. ...
 
