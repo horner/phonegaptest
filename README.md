@@ -1,3 +1,5 @@
+Source of Truth: https://repo.mieweb.com/projects/WC/repos/wc_client_app/browse
+
 WC Client App
 -------------
 
